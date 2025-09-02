@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Joana's Outfit - Activity 2</title>
+  <title>Animated Barbie Movie Gallery</title>
   <style>
     body {
       background: url('https://tse2.mm.bing.net/th/id/OIP.J7j3sPDo6v7SsN0W_nTLUwHaE8?pid=Api&P=0&h=180') no-repeat center center fixed;
@@ -19,6 +19,7 @@
       padding: 10px;
       text-align: center;
     }
+
     nav a {
       color: white;
       text-decoration: none;
@@ -26,6 +27,7 @@
       font-size: 18px;
       font-weight: bold;
     }
+
     nav a:hover {
       color: #ff69b4;
     }
@@ -41,20 +43,23 @@
       background-color: rgba(0,0,0,0.6);
       padding: 10px;
       border-radius: 10px;
+      overflow:hidden;
     }
+
     main td {
       text-align: center;
     }
 
     img {
-      width: 180px;
-      height: 220px;
+      width: 200px;
+      height: 280px;
       object-fit: cover;
       display: block;
       border: 3px solid #fff;
       border-radius: 12px;
       box-shadow: 0 4px 10px rgba(0,0,0,0.7);
       transition: transform 0.3s, box-shadow 0.3s;
+      cursor: pointer;
     }
 
     img:hover {
@@ -63,8 +68,8 @@
     }
 
     .big {
-      width: 400px;
-      height: 500px;
+      width: 420px;
+      height: 580px;
     }
 
     footer {
@@ -80,33 +85,67 @@
   </nav>
 
   <header>
-    <h1>Joana’s Outfit Gallery</h1>
+    <h1>Barbie Movie Gallery</h1>
   </header>
 
   <main>
     <table>
       <tr>
-        <td><img src="bg/a.jpg.jpg" alt="Casual Dress"></td>
-        <td><img src="bg/b.jpg.jpg" alt="Formal Pants"></td>
-        <td><img src="bg/c.jpg.jpg" alt="Mini Skirt"></td>
-        <td><img src="bg/d.jpg.jpg" alt="White Blouse"></td>
-      </tr>
-      <tr>
-        <td><img src="bg/g.jpg.jpg" alt="Black Shoes"></td>
-        <td><img src="bg/f.jpg.jpg" alt="Hand Bag"></td>
-        <td colspan="2" rowspan="2">
-          <img src="bg/e.jpg.jpg" alt="Complete Outfit" class="big">
+        <td>
+          <a href="https://www.google.com/search?q=Barbie+The+Princess+and+the+Pauper+movie" target="_blank">
+            <img src="https://alchetron.com/cdn/Barbie-as-the-Princess-and-the-Pauper-images-d474b63e-8293-43e2-8a89-a9b04cde910.jpg" alt="Barbie: The Princess and the Pauper">
+          </a>
+        </td>
+        <td>
+          <a href="https://www.google.com/search?q=Barbie+12+Dancing+Princesses+movie" target="_blank">
+            <img src="https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1178254534i/777042.jpg" alt="Barbie: 12 Dancing Princesses">
+          </a>
+        </td>
+        <td>
+          <a href="https://www.google.com/search?q=Barbie+as+Rapunzel+movie" target="_blank">
+            <img src="https://www.mobygames.com/images/covers/l/210534-barbie-as-rapunzel-a-creative-adventure-macintosh-front-cover.png" alt="Barbie as Rapunzel">
+          </a>
+        </td>
+        <td>
+          <a href="https://www.google.com/search?q=Barbie+in+Swan+Lake+movie" target="_blank">
+            <img src="https://m.media-amazon.com/images/M/MV5BMjA2NDMxNDYzMl5BMl5BanBnXkFtZTcwMTE5MjAwMQ@@._V1_.jpg" alt="Barbie in Swan Lake">
+          </a>
         </td>
       </tr>
       <tr>
-        <td><img src="bg/i.jpg.jpg" alt="Leather Jacket"></td>
-        <td><img src="bg/h1.jpg.jpg" alt="Fashion Accessories"></td>
+        <td>
+          <a href="https://www.google.com/search?q=Barbie+and+the+Diamond+Castle+movie" target="_blank">
+            <img src="http://static2.wikia.nocookie.net/__cb20130425173226/barbie-movies/images/f/f2/Barbie_%26_The_Diamond_Castle_Digital_Copy.png" alt="Barbie and the Diamond Castle">
+          </a>
+        </td>
+        <td>
+          <a href="https://www.google.com/search?q=Barbie+as+The+Island+Princess+movie" target="_blank">
+            <img src="http://img3.wikia.nocookie.net/__cb20130425172843/barbie-movies/images/d/d8/Barbie_as_The_Island_Princess_Digital_Copy.png" alt="Barbie as the Island Princess">
+          </a>
+        </td>
+        <td colspan="2" rowspan="2">
+          <a href="https://www.google.com/search?q=All+Barbie+Animated+Movies" target="_blank">
+            <img src="https://img.freepik.com/premium-photo/high-definition-portrait-capturing-barbie-s-elegance_894855-7143.jpg" alt="All Barbie Animated Movies" class="big">
+          </a>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <a href="https://www.google.com/search?q=Barbie+in+The+Fairy+Secret+movie" target="_blank">
+            <img src="http://img2.wikia.nocookie.net/__cb20130425174355/barbie-movies/images/3/33/Barbie_A_Fairy_Secret_Digital_Copy.png" alt="Barbie: The Fairy Secret">
+          </a>
+        </td>
+        <td>
+          <a href="https://www.google.com/search?q=Barbie+Fairytopia+Mermaidia+movie" target="_blank">
+            <img src="https://wdltd.imgix.net/assets/images/0/0/2/5/9/mm00259853.jpg?width=700" alt="Barbie Fairytopia: Mermaidia">
+          </a>
+        </td>
       </tr>
     </table>
   </main>
 
   <footer>
-    <p>&copy; 2025 Joana's Outfit Gallery | Activity 2</p>
+    <p>&copy; 2025 Animated Barbie Movie Gallery</p>
   </footer>
 </body>
 </html>
