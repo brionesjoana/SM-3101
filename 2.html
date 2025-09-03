@@ -38,16 +38,25 @@
     }
 
     main table {
-      margin: 20px auto;
-      border-spacing: 10px;
-      background-color: rgba(0,0,0,0.6);
-      padding: 10px;
-      border-radius: 10px;
-      overflow:hidden;
+  margin: 20px auto;
+  border-spacing: 10px;
+  background-color: rgba(0,0,0,0.6);
+  padding: 10px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+
+    caption {
+      font-size: 1.5em;
+      font-weight: bold;
+      margin-bottom: 10px;
+      color: #ffccff;
     }
 
     main td {
       text-align: center;
+      vertical-align: top;
     }
 
     img {
@@ -72,6 +81,12 @@
       height: 580px;
     }
 
+    .movie-title {
+      margin-top: 5px;
+      font-size: 14px;
+      font-weight: bold;
+    }
+
     footer {
       margin-top: 20px;
       font-size: 14px;
@@ -90,26 +105,31 @@
 
   <main>
     <table>
+      <caption>Popular Animated Barbie Movies</caption>
       <tr>
         <td>
           <a href="https://www.google.com/search?q=Barbie+The+Princess+and+the+Pauper+movie" target="_blank">
             <img src="https://alchetron.com/cdn/Barbie-as-the-Princess-and-the-Pauper-images-d474b63e-8293-43e2-8a89-a9b04cde910.jpg" alt="Barbie: The Princess and the Pauper">
           </a>
+          <div class="movie-title">The Princess and the Pauper</div>
         </td>
         <td>
           <a href="https://www.google.com/search?q=Barbie+12+Dancing+Princesses+movie" target="_blank">
             <img src="https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1178254534i/777042.jpg" alt="Barbie: 12 Dancing Princesses">
           </a>
+          <div class="movie-title">12 Dancing Princesses</div>
         </td>
         <td>
           <a href="https://www.google.com/search?q=Barbie+as+Rapunzel+movie" target="_blank">
             <img src="https://www.mobygames.com/images/covers/l/210534-barbie-as-rapunzel-a-creative-adventure-macintosh-front-cover.png" alt="Barbie as Rapunzel">
           </a>
+          <div class="movie-title">Barbie as Rapunzel</div>
         </td>
         <td>
           <a href="https://www.google.com/search?q=Barbie+in+Swan+Lake+movie" target="_blank">
             <img src="https://m.media-amazon.com/images/M/MV5BMjA2NDMxNDYzMl5BMl5BanBnXkFtZTcwMTE5MjAwMQ@@._V1_.jpg" alt="Barbie in Swan Lake">
           </a>
+          <div class="movie-title">Barbie in Swan Lake</div>
         </td>
       </tr>
       <tr>
@@ -117,16 +137,19 @@
           <a href="https://www.google.com/search?q=Barbie+and+the+Diamond+Castle+movie" target="_blank">
             <img src="http://static2.wikia.nocookie.net/__cb20130425173226/barbie-movies/images/f/f2/Barbie_%26_The_Diamond_Castle_Digital_Copy.png" alt="Barbie and the Diamond Castle">
           </a>
+          <div class="movie-title">Diamond Castle</div>
         </td>
         <td>
           <a href="https://www.google.com/search?q=Barbie+as+The+Island+Princess+movie" target="_blank">
             <img src="http://img3.wikia.nocookie.net/__cb20130425172843/barbie-movies/images/d/d8/Barbie_as_The_Island_Princess_Digital_Copy.png" alt="Barbie as the Island Princess">
           </a>
+          <div class="movie-title">Island Princess</div>
         </td>
         <td colspan="2" rowspan="2">
           <a href="https://www.google.com/search?q=All+Barbie+Animated+Movies" target="_blank">
             <img src="https://img.freepik.com/premium-photo/high-definition-portrait-capturing-barbie-s-elegance_894855-7143.jpg" alt="All Barbie Animated Movies" class="big">
           </a>
+          <div class="movie-title">All Barbie Animated Movies</div>
         </td>
       </tr>
       <tr>
@@ -134,11 +157,13 @@
           <a href="https://www.google.com/search?q=Barbie+in+The+Fairy+Secret+movie" target="_blank">
             <img src="http://img2.wikia.nocookie.net/__cb20130425174355/barbie-movies/images/3/33/Barbie_A_Fairy_Secret_Digital_Copy.png" alt="Barbie: The Fairy Secret">
           </a>
+          <div class="movie-title">The Fairy Secret</div>
         </td>
         <td>
           <a href="https://www.google.com/search?q=Barbie+Fairytopia+Mermaidia+movie" target="_blank">
             <img src="https://wdltd.imgix.net/assets/images/0/0/2/5/9/mm00259853.jpg?width=700" alt="Barbie Fairytopia: Mermaidia">
           </a>
+          <div class="movie-title">Fairytopia Mermaidia</div>
         </td>
       </tr>
     </table>
